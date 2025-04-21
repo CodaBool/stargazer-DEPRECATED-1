@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: black;
+  color: white;
+}
+
+/* landing page */
+.hover-grow {
+  transition: transform 0.3s ease-in-out;
+}
+.hover-grow:hover {
+  transform: scale(1.05);
+}
+
+/* contribute */
+.location-description {
+  line-height: 1.8;
+  overflow: auto;
+  text-overflow: clip;
+}
+.location-description h1 {
+  font-size: 2em;
+}
+.location-description h2 {
+  font-size: 1.5em;
+}
+.location-description blockquote {
+  border-left: 4px solid #dfe2e5;
+  padding: 0.5em 10px;
+  color: lightslategray;
+  margin: 0.8em 0;
+  font-style: italic;
+}
+.location-description a {
+  color: cornflowerblue;
+  text-decoration: underline;
+}

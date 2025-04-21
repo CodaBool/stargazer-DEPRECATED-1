@@ -1,0 +1,10 @@
+# just using this so I don't have to install pgadmin4
+services:
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: pgadmin
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=codabool@pm.me
+      - PGADMIN_DEFAULT_PASSWORD=admin
+    ports:
+      - "80:80"
